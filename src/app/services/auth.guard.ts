@@ -7,7 +7,7 @@ import {
   UrlTree,
 } from '@angular/router';
 import { Observable } from 'rxjs';
-import { AngularFireAuth } from '@angular/fire/auth';
+import { AngularFireAuth } from '@angular/fire/compat/auth';
 
 @Injectable({
   providedIn: 'root',
@@ -23,7 +23,7 @@ export class AuthGuard implements CanActivate {
     | boolean
     | UrlTree {
     return new Promise((resolve, reject) => {
-      this.afAuth.onAuthStateChanged((user) => {
+      this.afAuth.onAuthStateChanged((user: any) => {
         if (user) {
           // if (!user.emailVerified)                            // if the user hasn't verified their email, send them to that page
           //     this.router.navigate(['/verify-email']);
