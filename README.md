@@ -36,14 +36,14 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v12](https://angular.io/)
-* [rxjs v6](https://rxjs.dev/) Reactive Extensions Library for JavaScript
-* [firebase v8](https://firebase.google.com/) backend
-* [@angular/fire v6](https://www.npmjs.com/package/@angular/fire) Angular library for Firebase.
+* [Angular v13](https://angular.io/)
+* [rxjs v7](https://rxjs.dev/) Reactive Extensions Library for JavaScript
+* [firebase v9](https://firebase.google.com/) backend
+* [@angular/fire v7](https://www.npmjs.com/package/@angular/fire) Angular library for Firebase.
 
 ## :floppy_disk: Setup
 
-* Create project in Firebase console then add authentication.
+* Create project in Firebase console then add email authentication.
 * `npm i` to install dependencies
 * `npm prune` to remove unused npm modules
 * `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
