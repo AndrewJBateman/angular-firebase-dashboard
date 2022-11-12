@@ -18,7 +18,7 @@
   * [:camera: Screenshots](#camera-screenshots)
   * [:signal_strength: Technologies](#signal_strength-technologies)
   * [:floppy_disk: Setup](#floppy_disk-setup)
-  * [:computer: Code Examples](#computer-code-examples)
+  * [:computer: Code Examples - by D-I-Ry with some modifications](#computer-code-examples---by-d-i-ry-with-some-modifications)
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
@@ -36,7 +36,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v13](https://angular.io/)
+* [Angular v14](https://angular.io/)
 * [rxjs v7](https://rxjs.dev/) Reactive Extensions Library for JavaScript
 * [firebase v9](https://firebase.google.com/) backend
 * [@angular/fire v7](https://www.npmjs.com/package/@angular/fire) Angular library for Firebase.
